@@ -1,0 +1,243 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+
+\usepackage{hyperref}
+
+\begin{document}
+	\pagenumbering{gobble}
+	
+	%----------------------------------------------------------------------------------------
+	%	TITLE SECTION
+	%----------------------------------------------------------------------------------------
+	
+	\lastupdated % Print the Last Updated text at the top right
+	
+	\namesection{Thomas}{Norrie}{ % Your name
+		%	\urlstyle{same}\url{http://tomnorrie.com} \\ % Your website, LinkedIn profile or ot5her web address
+		\href{mailto:thomas.norrie@rutgers.edu}{thomas.norrie@rutgers.edu} | (973) 865-6321 % Your contact information
+	}
+	
+	%----------------------------------------------------------------------------------------
+	%	LEFT COLUMN
+	%----------------------------------------------------------------------------------------
+	
+	\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+		
+		%------------------------------------------------
+		% Education
+		%------------------------------------------------
+		
+		\section{Education} 
+
+		\subsection{Rutgers University}
+		\descript{BS in Computer Science}
+		\location{Expected May 2020\\New Brunswick, NJ}
+		%Academic Thing \\
+		Major GPA: 3.72 / 4.0
+		
+		\sectionspace % Some whitespace after the section
+		\descript{BA in Mathematics}
+		\location{Expected May 2020\\New Brunswick, NJ}
+		%Academic Thing \\
+		Major GPA: 3.75 / 4.0
+		
+		\sectionspace % Some whitespace after the section
+		Cum. GPA: 3.71 / 4.0\\
+		\sectionspace
+		
+		%------------------------------------------------
+		% Links
+		%------------------------------------------------
+		
+		\section{Links} 
+		
+		Github:// \href{https://github.com/tomnorrie}{\bf tomnorrie} \\
+		LinkedIn:// \href{https://www.linkedin.com/in/thomasnorrie/}{\bf thomasnorrie} \\
+		
+		\sectionspace % Some whitespace after the section
+		
+		%------------------------------------------------
+		% Coursework
+		%------------------------------------------------
+		
+		\section{Coursework}
+		
+		
+		\subsection{Undergraduate}
+		
+		Data Structures\\
+		Computer Architecture\\
+		Discrete Mathematics\\
+		Linear Algebra\\
+		Probability*\\
+		Software Methodology*\\
+		
+		{\tiny * Spring 2018}
+		
+		\sectionspace % Some whitespace after the section
+		
+		%------------------------------------------------
+		% Skills
+		%------------------------------------------------
+		
+		\section{Skills}
+		
+		\subsection[Languages & Technologies]{Languages \& \texorpdfstring{\\}{ } Technologies}
+		
+		\location{Proficient:}
+		Java \textbullet{} Python\\
+		\location{Experienced:}
+		C \textbullet{}  \LaTeX\ \textbullet{} AHK \textbullet{} Eclipse\\
+		\location{Familiar:}
+		C++ \textbullet{} CSS \textbullet{} HTML \\ \textbullet{GIT} \textbullet{} Linux\\
+		
+		\sectionspace % Some whitespace after the section
+		
+		%----------------------------------------------------------------------------------------
+		
+	\end{minipage} % The end of the left column
+	\hfill
+	%
+	%----------------------------------------------------------------------------------------
+	%	RIGHT COLUMN
+	%----------------------------------------------------------------------------------------
+	%
+	\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+		
+		%------------------------------------------------
+		% Projects
+		%------------------------------------------------
+		
+		\section{Projects}
+		
+		\runsubsection{ePubify}
+		\descript{| A webnovel to .epub converter}
+		
+		\vspace{\topsep} % Hacky fix for awkward extra vertical space
+		\begin{tightitemize}
+			\item A python script that takes as input the url of a webnovel's table of contents and retrieves links to each chapter. They are then combined and formatted in to an e-reader compliant .epub file.
+		\end{tightitemize}
+		
+		
+		\sectionspace % Some whitespace after the section
+		
+		\runsubsection{Registerator 9000}
+		\descript{| A Course-Sniping Script}
+		
+		\vspace{\topsep} % Hacky fix for awkward extra vertical space
+		\begin{tightitemize}
+			\item Written in python, this is a tool used to regularly query Rutgers University's schedule of classes API and, if a watched  section is open, automatically register for it.
+		\end{tightitemize}
+		
+		
+		\sectionspace % Some whitespace after the section
+		
+		\runsubsection{Circuit Simulator}
+		%\descript{| }
+		
+		\vspace{\topsep} % Hacky fix for awkward extra vertical space
+		\begin{tightitemize}
+			\item A C program for computing the truth table of any arbitrary circuit consisting of the basic logic gates as well as decoders and multiplexers. Written as a class project.
+		\end{tightitemize}
+		
+		
+		\sectionspace % Some whitespace after the section
+		
+		%------------------------------------------------
+		% Experience
+		%------------------------------------------------
+		
+		\section{Experience}
+		
+		\runsubsection{Mathnasium}
+		\descript{| Math Tutor}
+		
+		\location{June 2012 - December 2013 | Montclair, NJ}
+		\vspace{\topsep} % Hacky fix for awkward extra vertical space
+		\begin{tightitemize}
+			\item Math tutor for grades K-12.
+			\item Subjects ranged from arithmetic to calculus.
+		\end{tightitemize}
+		
+		\sectionspace % Some whitespace after the section
+		
+		\runsubsection{Freelance Math Tutor}
+		
+		\location{February 2014 - August 2016 | Montclair, NJ}
+		\vspace{\topsep} % Hacky fix for awkward extra vertical space
+		\begin{tightitemize}
+			\item One-on-one tutoring with students grades K-12 based on their individualized needs.
+			\item Subjects ranged from arithmetic to calculus.
+		\end{tightitemize}
+		
+		\sectionspace % Some whitespace after the section
+		
+		\runsubsection{Shoprite}
+		\descript{| Deli Associate}
+		
+		\location{Summer 2016 | Bloomfield, NJ}
+		
+		
+		\sectionspace % Some whitespace after the section
+		
+		%----------------------------------------------------------------------------------------
+		
+		%------------------------------------------------
+		% Awards
+		%------------------------------------------------
+		
+		\section{Awards} 
+		
+		\begin{tabular}{rll}
+			2016	& Fall	& Dean's List\\
+			2017	& Spring& Dean's List\\
+			2017	& Fall	& Dean's List
+		\end{tabular}
+		
+		\sectionspace % Some whitespace after the section
+		
+		
+	\end{minipage} % The end of the right column
+	
+	%----------------------------------------------------------------------------------------
+	%	SECOND PAGE (EXAMPLE)
+	%----------------------------------------------------------------------------------------
+	
+	%\newpage % Start a new page
+	
+	%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+	
+	%\section{Example Section}
+	
+	%\end{minipage} % The end of the left column
+	%\hfill
+	%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+	
+	%\section{Example Section 2}
+	
+	%\end{minipage} % The end of the right column
+	
+	%----------------------------------------------------------------------------------------
+	
+\end{document}
